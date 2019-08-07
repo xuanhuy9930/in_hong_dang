@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+body{
+	background: #eee;
+}
+body>*, html {
+    color: #444;
+    font-family: Arial;
+    font-size: 15px;
+    word-spacing: normal;
+}
+#home{
+	background: #4f4f51;
+	width: 100%;
+	height: 50px;
+	ul{
+		list-style: none;
+	}
+	a{
+		display: block;
+		width: 120px;
+		height: 50px;
+		background-color: #ce2850;
+		padding-top: 10px;
+    	text-align: center;
+    	color: white;
+    	font-weight: bold;
+	}
+	span{
+		font-size: 18px;
+	}
+	a:hover{
+		text-decoration: none;
+		color: #FFF32D;
+	}
+}
+.help-motal{
+	#accordion{
+		margin-bottom: 20px;
+	}
+	.help-title{
+		color: #0aa4ab;
+	    font-size: 20px;
+	    margin-bottom: 5px;
+	    margin-top: 51px;
+	    text-align: center;
+	}
+	.faq-q{
+		color: #999;
+	    float: left;
+	    font-size: 24px;
+	    width: 42px;
+		font-weight: 700;
+		
+	}
+	.faq-card{
+		margin-top: 8px;
+		a{
+			color: black;
+		}
+	}
+}
+.fix-scroll {
+	width: 270px;
+	margin-top: 15px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	h4 {
+	    background: #0aa4ab;
+	    color: #fff;
+	    font-size: 16px;
+	    margin: 0;
+	   	text-align: center;
+	   	height: 50px;
+	   	padding-top: 15px;
+	   	text-transform: uppercase;
+	   	font-weight: bold;
+   }
+   .menu-right{
+   		ul{
+   			list-style: none;
+   		}
+   		li{
+   			border-bottom: 1px solid gray; 
+   			background-color: #fff;
+   		}
+
+   		a{
+   			display: block;
+			width: 100%;
+			height: 40px;
+			padding-top: 10px;
+	    	font-weight: bold;
+	    	color: black;
+	    	margin-left: 10px;
+   		}
+   		a:hover{
+   			text-decoration: none;
+   			color: gray;
+   		}
+   }
+}
