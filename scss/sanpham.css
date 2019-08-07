@@ -1,0 +1,141 @@
+* {
+
+   }
+
+.zoom-img {
+  position: relative;
+  margin: 2%;
+  overflow: hidden; }
+  .zoom-img:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transition-duration: 0.3s;
+    cursor: pointer; }
+  .zoom-img:hover .zoom-img img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+
+.main-product .support-user .title-support {
+  margin-top: 10px;
+  text-align: center; }
+  .main-product .support-user .title-support h4 {
+    color: #4c4944;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+    font-style: italic; }
+.main-product .support-user .phone-one {
+  text-align: right; }
+  .main-product .support-user .phone-one .number-phone1 {
+    color: white;
+    background: #ed1c24;
+    border-radius: 31px;
+    box-shadow: 1px 3px #a6aaa9;
+    font-size: 21px;
+    padding: 5px 10px 5px 10px; }
+.main-product .support-user .phone-two {
+  text-align: left; }
+  .main-product .support-user .phone-two .number-phone2 {
+    color: white;
+    background: #ed1c24;
+    border-radius: 31px;
+    box-shadow: 1px 3px #a6aaa9;
+    padding: 3px;
+    font-size: 21px;
+    padding: 7px 15px 7px 15px; }
+.main-product .support-user .calendar {
+  padding-top: 10px; }
+.main-product .list-product .product-item a {
+  text-decoration: none; }
+.main-product .list-product .product-item .product-image {
+  border: 5px solid #CCC8C8;
+  height: 100% !important; }
+  .main-product .list-product .product-item .product-image:hover {
+    border: 5px solid #4FF0E6; }
+.main-product .list-product .product-item .product-name {
+  text-align: center;
+  padding-top: 10px; }
+.main-product .customers {
+  padding-bottom: 20px;
+  width: 100%;
+  padding-top: 20px;
+  background-image: url("../images/support-bg.jpg");
+  background-size: cover;
+  background-position: center center; }
+  .main-product .customers .title-team-support h3 {
+    color: #0aa4ab;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+  .main-product .customers .background {
+    background-color: white; }
+    .main-product .customers .background .support-customer {
+      padding-top: 20px;
+      text-align: center; }
+      .main-product .customers .background .support-customer a {
+        text-decoration: none; }
+      .main-product .customers .background .support-customer .img-customer {
+        border-radius: 50%;
+        width: 110px; }
+    .main-product .customers .background .info {
+      padding-bottom: 30px; }
+      .main-product .customers .background .info .name-customers {
+        padding-top: 10px;
+        display: inline-block;
+        color: #0aa4ab;
+        font-size: 16px;
+        font-weight: 600;
+        width: 100%;
+        margin: 0;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+      .main-product .customers .background .info .phone-customers {
+        display: inline-block;
+        color: #444;
+        font-size: 14px;
+        width: 100%;
+        margin: 0;
+        font-weight: 600;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+        .main-product .customers .background .info .phone-customers .phone-icon {
+          color: #ce2851;
+          padding-right: 10px; }
+      .main-product .customers .background .info .skype-customers {
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+        .main-product .customers .background .info .skype-customers .skype-icon {
+          color: #0AA4AB;
+          padding-right: 10px; }
+      .main-product .customers .background .info .email-customers {
+        display: inline-block;
+        color: #444;
+        font-size: 12px;
+        width: 100%;
+        margin: 0;
+        font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+        .main-product .customers .background .info .email-customers .email-icon {
+          color: #ce2851;
+          padding-right: 10px; }
+.main-product .title-team-support-last h3 {
+  height: 50px;
+  line-height: 60px;
+  color: #0aa4ab;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; }
+.main-product .bard {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  padding: 0; }
+
+@media (min-width: 310px) and (max-width: 414px) {
+  .main-product .support-user .phone-one {
+    text-align: center;
+    padding-bottom: 20px; }
+  .main-product .support-user .phone-two {
+    text-align: center; } }
+
+/*# sourceMappingURL=sanpham.css.map */

@@ -1,0 +1,211 @@
+$font-stack: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+
+*{
+	font-family: $font-stack;
+	font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #666666;
+	
+}
+//zoom-img
+.zoom-img{
+		position: relative;
+			margin: 2%;
+			overflow: hidden;
+			&:hover{
+				img{
+			  -moz-transform: scale(1.1);
+			  -webkit-transform: scale(1.1);
+			  	transition-duration: 0.3s;
+				cursor: pointer;
+				}
+				.zoom-img img{
+			  max-width: 100%;
+			  -moz-transition: all 0.3s;
+			  -webkit-transition: all 0.3s;
+			  transition: all 0.3s;
+		}
+			}
+		
+	}
+.main-product{
+	.main-banner{
+		
+	}
+//support-page
+	.support-user{
+		.title-support{
+			margin-top: 10px;
+			text-align: center;
+			h4{
+			color: #4c4944;
+			font-size: 24px;
+			font-weight: 800;
+			margin-top: 20px;
+				font-style: italic;
+			}
+		}
+		.phone-one{
+			text-align: right;
+			.number-phone1{
+				color: white;
+				background: #ed1c24;
+				border-radius: 31px;
+				box-shadow: 1px 3px #a6aaa9;
+				font-size: 21px;
+				padding: 5px 10px 5px 10px ;
+			}
+		}
+		.phone-two{
+			text-align: left;
+			.number-phone2{
+				color: white;
+				background: #ed1c24;
+				border-radius: 31px;
+				box-shadow: 1px 3px #a6aaa9;
+				padding: 3px;
+				font-size: 21px;
+				padding: 7px 15px 7px 15px;
+			}
+		}	
+			
+		.calendar{
+			padding-top: 10px;
+		}
+	}
+	//produdct
+	.list-product{
+		.product-item{
+			a{
+				text-decoration: none;
+			}
+			.product-image{
+		 	border: 5px solid #CCC8C8;
+				height: 100% !important;
+				&:hover{
+					border: 5px solid #4FF0E6;
+				}
+			}
+			.product-name{
+				text-align: center;
+				padding-top: 10px;
+			}
+		}
+	}
+	//support-team
+	.customers{
+		padding-bottom: 20px;
+		width: 100%;
+		padding-top: 20px;
+		background-image: url("../images/support-bg.jpg") ;
+		background-size: cover;
+		background-position: center center;
+		.title-team-support{
+			h3{
+				color: #0aa4ab;
+				text-align: center;
+				 font-size: 24px;
+    			font-weight: 600;
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				
+			}
+		}
+		.background{
+			background-color: white;
+			.support-customer{
+			padding-top: 20px;
+			text-align: center;
+			
+			a{
+				text-decoration: none;	
+			}
+			.img-customer{
+				border-radius: 50%;
+				width: 110px;
+			}
+		}
+	
+			.info{
+				padding-bottom: 30px;
+				.name-customers{
+					padding-top: 10px;
+					display: inline-block;
+					color: #0aa4ab;
+					font-size: 16px;
+					font-weight: 600;
+					width: 100%;
+					margin: 0;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				}
+				.phone-customers{
+					display: inline-block;
+					color: #444;
+					font-size: 14px;
+					width: 100%;
+					margin: 0;
+					font-weight: 600;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+					.phone-icon{
+						 color: #ce2851;
+    					padding-right: 10px;
+					}
+				}
+				.skype-customers{
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+					.skype-icon{
+						 color: #0AA4AB;
+						padding-right: 10px;
+					}
+				}
+				.email-customers{
+					display: inline-block;
+					color: #444;
+					font-size: 12px;
+					width: 100%;
+					margin: 0;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+					.email-icon{
+						color: #ce2851;
+    					padding-right: 10px;
+					}
+				}
+				
+			}
+		}
+		
+	}
+	.title-team-support-last{
+		h3{
+			height: 50px;
+			line-height: 60px;
+				color: #0aa4ab;
+				text-align: center;
+				 font-size: 24px;
+    			font-weight: 600;
+				font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+				
+			}
+	}
+	.bard{
+		background-color: white;
+		height: 60px;
+		width: 100%;
+		padding: 0;
+		
+	}
+}
+//resposive 
+@media(min-width:310px) and (max-width:414px){
+	.main-product{
+		.support-user{
+			.phone-one{
+					text-align: center;
+					padding-bottom: 20px;
+			}
+			.phone-two{
+					text-align: center;
+			}
+	} 
+	} 
+}
