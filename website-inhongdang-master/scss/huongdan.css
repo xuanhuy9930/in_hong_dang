@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; }
+
+body {
+  background: #eee; }
+
+body > *, html {
+  color: #444;
+  font-family: Arial;
+  font-size: 15px;
+  word-spacing: normal; }
+
+#home {
+  background: #4f4f51;
+  width: 100%;
+  height: 50px; }
+  #home ul {
+    list-style: none; }
+  #home a {
+    display: block;
+    width: 120px;
+    height: 50px;
+    background-color: #ce2850;
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold; }
+  #home span {
+    font-size: 18px; }
+  #home a:hover {
+    text-decoration: none;
+    color: #FFF32D; }
+
+.help-motal #accordion {
+  margin-bottom: 20px; }
+.help-motal .help-title {
+  color: #0aa4ab;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 51px;
+  text-align: center; }
+.help-motal .faq-q {
+  color: #999;
+  float: left;
+  font-size: 24px;
+  width: 42px;
+  font-weight: 700; }
+.help-motal .faq-card {
+  margin-top: 8px; }
+  .help-motal .faq-card a {
+    color: black; }
+
+.fix-scroll {
+  width: 270px;
+  margin-top: 15px;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray; }
+  .fix-scroll h4 {
+    background: #0aa4ab;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .fix-scroll .menu-right ul {
+    list-style: none; }
+  .fix-scroll .menu-right li {
+    border-bottom: 1px solid gray;
+    background-color: #fff; }
+  .fix-scroll .menu-right a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: black;
+    margin-left: 10px; }
+  .fix-scroll .menu-right a:hover {
+    text-decoration: none;
+    color: gray; }
+
+/*# sourceMappingURL=huongdan.css.map */
