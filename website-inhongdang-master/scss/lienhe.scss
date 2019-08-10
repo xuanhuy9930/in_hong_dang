@@ -1,0 +1,231 @@
+	
+body {
+	    font-family: Arial;
+    font-size: 15px;
+    word-spacing: normal;
+      line-height: 1.42857143;
+   }
+
+	#main{
+	    padding: 0;
+	}
+	.wpb_map_wraper{
+	    margin-bottom:20px;
+	    background: rgba(0,0,0,0);
+	    padding: 0;
+	    width: 100%;
+	     iframe{
+	     border: 0;
+	    display: block;
+	    margin-bottom: 0;
+	    padding: 0;
+	    width:100%;
+	     }
+	}
+	iframe{
+		 width:100%!important;
+	}
+	.dt-fancy-separator{
+		    margin: 0 auto;
+	 .title-left{
+		margin: 0;
+	    text-align: left;
+     
+
+	    }
+	}
+	 .dt-fancy-title{
+	     padding-left: 0;
+	    color: #0aa4ab;
+	    text-transform: uppercase;
+	    top: 50%;
+		    }
+.separator-holder{
+	    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 2000px;
+    border-color: rgba(102,102,102,.15);
+}
+.separator-left{
+	 margin-right: 1em;
+    right: 100%;
+}
+.separator-right{
+	    left: 100%;
+    margin-left: 1em;
+}
+.wpb_wrapper{
+	    width: 100%;
+    margin: 0;
+}
+p{
+	    margin: 0 0 10px;
+}
+strong{
+	    font-weight: 700;
+}
+input{
+	    background: #0aa4ab;
+    font-weight: 700;
+    color: #fff;
+    width: 1%;
+}
+.form-horizontal {
+	.form-group{
+		    margin-right: -15px;
+    margin-left: -15px;
+	}
+	}
+	.form-group{
+		    margin-bottom: 15px;
+	}
+	.clear-padding{
+		    padding-left: 0!important;
+    padding-right: 0!important;
+	}
+	.input-group{
+		    position: relative;
+    display: table;
+    border-collapse: separate;
+	}
+	.input-group-addon:first-child{
+		    border-right: 0;
+	}
+	.input-group-addon{
+		    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	}
+	.input-group-addon, .input-group-btn{
+		width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+	}
+	.input-group .form-control, .input-group-addon, .input-group-btn{
+		    display: table-cell;
+	}
+	.input-group .form-control{
+		    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+	}
+	.form-control{
+		display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+	}
+	input{
+      background: #0aa4ab;
+    font-weight: 700;
+    width: 100%;
+
+	}
+	.tuvan-baogia{
+		    background-color: #fff;
+    display: inline-block;
+    padding: 0 10px;
+    ul{
+    	    width: 100%;
+    list-style: none;
+    padding: 0;
+    li{
+    	line-height: 18px;
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 5px 0;
+    float: left;
+    img{
+    	    float: left;
+    margin: 1px 7px 0;
+    width: 70px;
+    }
+     p.name{
+     	    color: #0aa4ab;
+    font-size: 14px;
+    font-weight: 700;
+     }
+     p.phonex{
+     	    font-weight: 700;
+     }
+     .other{
+     	    color: #333;
+    font-size: 12px;
+     }
+    }
+
+    }
+	}
+	.tuvan-baogia li{
+		    border: 1px solid #cdcdcd;
+    width: 100%;
+    p{
+    width: 100%;
+    margin: 0;
+
+    }
+    }
+	.btn-primary{
+		    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    &:hover{
+    	    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+    }
+	}
+    @media (max-width: 768px)and(min-width: 720px){
+    .clear-padding{
+.btn-primary{
+    width: 100px;
+
+}
+}
+.tuvan-baogia{
+    img{
+            float: left;
+    margin: 1px 7px 0;
+    width: 68px;
+    }
+    .other{
+    color: #333;
+    font-size: 12px;
+    margin: 0px 0px 0px 73px;
+    padding-right: 25px;
+    }
+    ul{
+        li{
+            line-height: 18px;
+    list-style: none;
+    margin-bottom: 8px;
+    padding: 5px 0;
+    float: left;
+    
+        }
+    }
+}
+}

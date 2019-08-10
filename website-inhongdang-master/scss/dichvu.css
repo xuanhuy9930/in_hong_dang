@@ -1,0 +1,208 @@
+img {
+  width: 100%;
+  height: auto; }
+
+#menu-service {
+  margin-top: 0; }
+  #menu-service .home-header-top {
+    display: inline-block;
+    padding-top: 42px;
+    width: 100%; }
+    #menu-service .home-header-top .slogan .slogan-small {
+      color: #fff;
+      font-size: 1em;
+      margin-bottom: 3px;
+      margin-top: 0; }
+    #menu-service .home-header-top .slogan .slogan-large {
+      color: #72bf44;
+      font-size: 1.5em;
+      margin-bottom: 0;
+      margin-top: 0; }
+  #menu-service .menu-header {
+    padding-top: 30px; }
+    #menu-service .menu-header .menu-header-content {
+      width: 100%;
+      padding: 0 10px; }
+      #menu-service .menu-header .menu-header-content div:nth-child(1) {
+        background-color: #00968b; }
+        #menu-service .menu-header .menu-header-content div:nth-child(1) li:hover {
+          background-color: #098179; }
+      #menu-service .menu-header .menu-header-content div:nth-child(2) {
+        background-color: #0071bc; }
+        #menu-service .menu-header .menu-header-content div:nth-child(2) li:hover {
+          background-color: #085e97; }
+      #menu-service .menu-header .menu-header-content div:nth-child(3) {
+        background-color: #80114d; }
+        #menu-service .menu-header .menu-header-content div:nth-child(3) li:hover {
+          background-color: #690f3f; }
+      #menu-service .menu-header .menu-header-content div:nth-child(4) {
+        background-color: #f15a24; }
+        #menu-service .menu-header .menu-header-content div:nth-child(4) li:hover {
+          background-color: #c74c20; }
+      #menu-service .menu-header .menu-header-content a {
+        text-decoration: none; }
+        #menu-service .menu-header .menu-header-content a p {
+          color: #fff;
+          display: block;
+          font-size: 15px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+          padding-bottom: 10px;
+          padding-top: 15px;
+          font-weight: 400;
+          text-transform: uppercase; }
+      #menu-service .menu-header .menu-header-content .sub-menu {
+        list-style: none;
+        padding-left: 7px; }
+        #menu-service .menu-header .menu-header-content .sub-menu li {
+          padding: 7px; }
+          #menu-service .menu-header .menu-header-content .sub-menu li a {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 400;
+            text-transform: none;
+            transition: all 0.5s ease 0s;
+            display: block; }
+          #menu-service .menu-header .menu-header-content .sub-menu li a:hover {
+            color: #fff;
+            transform: translate(1em, 0);
+            transition: all 0.5s ease 0s; }
+
+#support-service {
+  text-align: center; }
+  #support-service .dttv p {
+    color: #4c4944;
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px; }
+  #support-service .pro-support-phone .brand-photo {
+    margin-left: 300px; }
+    #support-service .pro-support-phone .brand-photo .phone,
+    #support-service .pro-support-phone .brand-photo .phone1 {
+      background: #ed1c24;
+      border-radius: 31px;
+      box-shadow: 1px 3px #a6aaa9;
+      padding: 3px;
+      font-size: 21px; }
+  #support-service .pro-support {
+    padding-top: 2%;
+    padding-bottom: 2%; }
+
+#service .service {
+  display: inline-block;
+  width: 100%; }
+#service .list-product {
+  width: 100%;
+  padding-top: 1%; }
+  #service .list-product .item-product {
+    text-align: center; }
+    #service .list-product .item-product .g-image {
+      border: 1px solid #cdcdcd;
+      padding: 3px;
+      width: 100%;
+      transition: all 0.4s ease 0s;
+      border-radius: 3px;
+      height: 180px; }
+      #service .list-product .item-product .g-image img {
+        width: 100%;
+        height: 100%;
+        border-radius: 3px;
+        transition: all 0.5s ease 0s; }
+      #service .list-product .item-product .g-image img:hover {
+        transition: all 0.5s ease 0s;
+        transform: scale(1.07); }
+    #service .list-product .item-product .g-title {
+      padding-top: 10px; }
+      #service .list-product .item-product .g-title .title-pro {
+        font-size: 15px;
+        text-transform: uppercase;
+        color: #222;
+        text-align: center;
+        text-decoration: none; }
+      #service .list-product .item-product .g-title .title-pro:hover {
+        color: #0aa4ab; }
+  #service .list-product .brand-photo {
+    margin-top: 20px; }
+  #service .list-product .clear-margin {
+    padding-left: 10px !important;
+    padding-right: 10px !important; }
+
+#contact .supports {
+  background: url(../images/support-bg.jpg) top center no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-top: 2%; }
+  #contact .supports .s-title {
+    position: relative;
+    color: #0aa4ab;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    padding: 20px 0 10px;
+    text-align: center; }
+  #contact .supports .s-list {
+    background: #fff;
+    margin: 10px 0;
+    padding: 20px 15px;
+    width: 100%; }
+    #contact .supports .s-list .s-item {
+      width: 100%; }
+      #contact .supports .s-list .s-item .s-img {
+        padding: 0 80px; }
+      #contact .supports .s-list .s-item .s-info {
+        text-align: center; }
+        #contact .supports .s-list .s-item .s-info a {
+          text-decoration: none; }
+        #contact .supports .s-list .s-item .s-info .s-name {
+          text-decoration: none;
+          display: inline-block;
+          color: #0aa4ab;
+          font-size: 16px;
+          font-weight: 600;
+          width: 100%;
+          margin: 0;
+          padding: 5px 0; }
+        #contact .supports .s-list .s-item .s-info .s-phone {
+          display: inline-block;
+          color: #444;
+          font-size: 14px;
+          width: 100%;
+          margin: 0;
+          font-weight: 600; }
+          #contact .supports .s-list .s-item .s-info .s-phone i {
+            display: inline-block;
+            color: #ce2851;
+            padding-right: 10px; }
+        #contact .supports .s-list .s-item .s-info .s-email {
+          text-decoration: none;
+          display: inline-block;
+          color: #444;
+          font-size: 12px;
+          width: 100%;
+          margin: 0; }
+          #contact .supports .s-list .s-item .s-info .s-email i {
+            display: inline-block;
+            color: #ce2851;
+            padding-right: 10px; }
+
+@media (min-width: 330px) and (max-width: 730px) {
+  #menu-service .slogan-large {
+    padding: 10px; }
+
+  #support-service .pro-support-phone .brand-photo {
+    margin-left: 0px; } }
+@media (min-width: 740px) and (max-width: 1010px) {
+  #contact .supports .s-list .s-item .s-img {
+    padding: 0 !important; }
+
+  #support-service .pro-support-phone .brand-photo {
+    margin-left: 200px; }
+    #support-service .pro-support-phone .brand-photo .col-md-4 .phone {
+      margin: 0 !important; } }
+@media (min-width: 1010px) and (max-width: 1100px) {
+  #contact .supports .s-list .s-item .s-img {
+    padding: 0 !important; }
+
+  #support-service .pro-support-phone .brand-photo {
+    margin-left: 200px; } }
+
+/*# sourceMappingURL=dichvu.css.map */
